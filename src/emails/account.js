@@ -9,6 +9,7 @@ const sendWelcomeMail = (email, name) => {
         subject: 'Thanks for joining in',
         text: `Welcome to the app, ${name}. Let me know how you get along with the app.`
     })
+
 }
 
 const sendCancellationMail = (email, name) => {
